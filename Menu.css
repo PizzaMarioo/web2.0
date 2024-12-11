@@ -1,0 +1,76 @@
+/* src/components/Menu.css */  
+
+/* Red frame styling for categories */
+.red-frame {
+  border: 2px solid red;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.red-frame:hover {
+  transform: scale(1.05);
+}
+
+/* Add general styles for the menu page */
+.menu-page {
+  padding: 20px;
+}
+
+.menu-category {
+  text-align: center;
+}
+
+.menu-category h3 {
+  margin-bottom: 8px;
+}
+
+.menu-category p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Checkbox styling for toppings/sauces */
+.customization-modal .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.customization-modal input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  appearance: none;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.customization-modal input[type="checkbox"]:checked {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.customization-modal input[type="checkbox"]:checked::after {
+  content: '✓';
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.customization-modal label {
+  margin-left: 8px;
+}          

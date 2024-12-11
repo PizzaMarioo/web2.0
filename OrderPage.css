@@ -1,0 +1,35 @@
+.order-page {
+    padding: 20px;
+}
+
+.order-page h1 {
+    color: #FF4500;
+    margin-bottom: 20px;
+}
+
+.food-item {
+    background-color: #fff;
+    border: 2px solid #FF4500;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.food-item:hover {
+    transform: translateY(-5px);
+}
+
+.food-item h3 {
+    color: #000000;
+}
+
+.food-item .description {
+    color: #333333;
+}
+
+.food-item .price {
+    color: #D32F2F;
+    font-weight: bold;
+}

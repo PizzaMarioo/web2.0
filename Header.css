@@ -1,0 +1,34 @@
+.header {
+    background-color: #FF4500; /* Primary Color */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+    color: #D32F2F; /* Accent Color */
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #D32F2F;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-size: 0.8em;
+}

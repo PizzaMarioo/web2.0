@@ -1,0 +1,22 @@
+.track-order-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.track-order-page h1 {
+    color: #FF4500;
+    margin-bottom: 20px;
+}
+
+.order-status {
+    border: 2px solid #FF4500;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.order-status p {
+    color: #000000;
+    font-size: 1.2em;
+}

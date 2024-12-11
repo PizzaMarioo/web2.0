@@ -1,0 +1,29 @@
+/* src/components/DealsPage.css */
+
+.deals-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .deals-page h1 {
+    color: #ff4400; /* Primary color */
+    margin-bottom: 20px;
+  }
+  
+  .deal-card {
+    background-color: #fff;
+    border: 2px solid #ff4500; /* Primary color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .deal-card:hover {
+    transform: translateY(-5px);
+    border-color: #d32f2f; /* Accent color */
+  }
+  

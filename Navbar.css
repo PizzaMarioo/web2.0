@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #ff0000; /* Red background color */
+    padding: 1rem; /* Padding for the nav bar */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center the nav items */
+    align-items: center; /* Align vertically */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flex layout for nav items */
+    gap: 2rem; /* Space between nav items */
+}
+
+.navbar li {
+    font-size: 1.2rem; /* Slightly increase font size */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Gold color when hovering over links */
+}
